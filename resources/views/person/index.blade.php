@@ -4,11 +4,10 @@
 
     <div class="card mt-2">
         <div class="card-header">
-            Dashboard
+            Person
         </div>
         <div class="card-body">
             Selamat Datang
         </div>
-            
     </div>
 @endsection
