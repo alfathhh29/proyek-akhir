@@ -29,4 +29,7 @@ class PersonController extends Controller
       $grade = $this->grade;
       return view("person.send-data", compact ("nrp", "name"));
   }
+  public function create() {
+    return view('person.create');
+  }
 }

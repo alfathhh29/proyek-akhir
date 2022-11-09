@@ -32,3 +32,5 @@ Route::get('/person/show/{param}', 'PersonController@show');
 Route::resource('student', 'StudentController');
 
 Route::get('/person/send-data', 'PersonController@SendData');
+Route::get('person/create', 'PersonController@create')->name('person.create');
+Route::post('person/store', 'PersonController@store')->name('person.store');
